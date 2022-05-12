@@ -13,13 +13,17 @@
    }
 
    @font-face {
-    font-family: "Brandon";
-    src: url("/fonts/Brandon_light.woff2") format("woff2"),
-           url("/fonts/Brandon_light.woff") format("woff"),
-           url("/fonts/Brandon_reg.woff") format("woff"),
-           url("/fonts/Brandon_reg.woff2") format("woff2");
+    font-family: "Brandon Grotesque";
+    src: url("font/Brandon_Grotesque/Brandon_light.woff2") format("woff2"),
+           url("font/Brandon_Grotesque/Brandon_light.woff") format("woff");
    }
 
+
+   //==================================== Variables ====================================
+
+   $bg-blue: #1E8E9D;
+
+   //==================================== GENERAL ====================================
 
 html, body {
 
@@ -36,8 +40,55 @@ html, body {
 
 width: 319px;
 height: 163px;
+object-fit: contain;
+object-position: center;
 
 }
+
+.font-b {
+
+    font-family: "Brandon Grotesque";
+    color: $bg-blue;
+
+}
+
+.bg-blue {
+
+    background-color: $bg-blue;
+
+}
+
+.formulaire {
+
+    input {
+
+        &::placeholder {
+
+            color: white;
+
+        }
+
+        background-color: $bg-blue;
+
+    }
+
+    textarea {
+
+        &::placeholder {
+
+            color: white;
+
+        }
+        background-color: $bg-blue;
+
+    }
+
+
+
+}
+
+
+
 
 //==================================== Page Index ====================================
 

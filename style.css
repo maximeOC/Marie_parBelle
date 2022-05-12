@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: "Brandon";
-  src: url("/fonts/Brandon_light.woff2") format("woff2"), url("/fonts/Brandon_light.woff") format("woff"), url("/fonts/Brandon_reg.woff") format("woff"), url("/fonts/Brandon_reg.woff2") format("woff2");
+  font-family: "Brandon Grotesque";
+  src: url("font/Brandon_Grotesque/Brandon_light.woff2") format("woff2"), url("font/Brandon_Grotesque/Brandon_light.woff") format("woff");
 }
 
 html, body {
@@ -22,5 +22,58 @@ html, body {
   /* Logo-final*/
   width: 319px;
   height: 163px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.font-b {
+  font-family: "Brandon Grotesque";
+  color: #1E8E9D;
+}
+
+.bg-blue {
+  background-color: #1E8E9D;
+}
+
+.formulaire input {
+  background-color: #1E8E9D;
+}
+
+.formulaire input::-webkit-input-placeholder {
+  color: white;
+}
+
+.formulaire input:-ms-input-placeholder {
+  color: white;
+}
+
+.formulaire input::-ms-input-placeholder {
+  color: white;
+}
+
+.formulaire input::placeholder {
+  color: white;
+}
+
+.formulaire textarea {
+  background-color: #1E8E9D;
+}
+
+.formulaire textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+.formulaire textarea:-ms-input-placeholder {
+  color: white;
+}
+
+.formulaire textarea::-ms-input-placeholder {
+  color: white;
+}
+
+.formulaire textarea::placeholder {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
