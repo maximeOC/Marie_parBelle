@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-logo {
+  /* Logo-final*/
+  position: absolute;
+  width: 319px;
+  height: 163px;
+  left: 304px;
+  top: 311px;
+  background: url(Logo-final.png);
+}
+/*# sourceMappingURL=style.css.map */
