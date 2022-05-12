@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #1e8e9d;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact .tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact svg {
+  width: 40px;
+  fill: white;
+}
+
+.contact p {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
