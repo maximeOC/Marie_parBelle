@@ -13,6 +13,11 @@
   src: url("font/Brandon_Grotesque/Brandon_light.woff2") format("woff2"), url("font/Brandon_Grotesque/Brandon_light.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Mulish";
+  src: url("font/Mulish/Mulish_light.woff2") format("woff2"), url("font/Mulish/Mulish_light.woff") format("woff");
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -20,17 +25,24 @@ html, body {
 
 .contact-logo {
   /* Logo-final*/
-  width: 319px;
-  height: 163px;
+  padding-top: 3%;
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: center;
      object-position: center;
 }
 
+.text-blue {
+  color: #1E8E9D;
+}
+
 .font-b {
   font-family: "Brandon Grotesque";
   color: #1E8E9D;
+}
+
+.font-m {
+  font-family: "Mulish";
 }
 
 .bg-blue {
@@ -75,10 +87,6 @@ html, body {
 
 .formulaire textarea::placeholder {
   color: white;
-}
-
-body {
-  margin: 0;
 }
 
 header {

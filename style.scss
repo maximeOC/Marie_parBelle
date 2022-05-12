@@ -18,6 +18,12 @@
            url("font/Brandon_Grotesque/Brandon_light.woff") format("woff");
    }
 
+   @font-face {
+    font-family: "Mulish";
+    src: url("font/Mulish/Mulish_light.woff2") format("woff2"),
+           url("font/Mulish/Mulish_light.woff") format("woff");
+   }
+
 
    //==================================== Variables ====================================
 
@@ -38,17 +44,25 @@ html, body {
 
 /* Logo-final*/
 
-width: 319px;
-height: 163px;
+padding-top: 3%;
 object-fit: contain;
 object-position: center;
 
 }
 
+.text-blue {
+    color: $bg-blue;
+}
 .font-b {
 
     font-family: "Brandon Grotesque";
     color: $bg-blue;
+
+}
+
+.font-m {
+
+    font-family: "Mulish";
 
 }
 
@@ -96,10 +110,6 @@ object-position: center;
 
 //==================================== Page Boutique ====================================
 
-body{
-    margin: 0;
-
-}
 header{
     background-color: #1e8e9d;
 display: flex;
