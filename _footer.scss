@@ -1,24 +1,28 @@
-footer{
-    background-color: #1E8E9D;
-    
-    .bandeau{
-        height: 8vh;
-        
-        
-        background-color: #1E8E9D;
-    }
-    .contact{
-        display: flex;
-        justify-content: space-around;
-        background-color: white;
-    }
+footer {
+  background-color: #1e8e9d;
 
-    h4{
-        color: #1E8E9D;
-        font-weight: bold;
-    }
-    .lien{
-        text-align: :center;
+  .bandeau {
+    height: 8vh;
+    background-color: #1e8e9d;
+  }
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
 
+    i {
+      color: #1e8e9d;
+      width: 100px;
     }
-    }
+  }
+
+  h4 {
+    color: #1e8e9d;
+    font-weight: bold;
+  }
+  .pied {
+    text-align: center;
+    font-family: "Brandon_Grotesque";
+    color: white;
+  }
+}
