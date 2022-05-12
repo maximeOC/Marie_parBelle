@@ -1,3 +1,26 @@
+//==================================== FONT ====================================
+
+@font-face {
+    font-family: "Amatica SC";
+    src: url("/fonts/Amatica SC.woff2") format("woff2"),
+           url("/fonts/Amatica SC.woff") format("woff");
+   }
+
+   @font-face {
+    font-family: "AmstelvarAlpha-Variations";
+    src: url("/fonts/AmstelvarAlpha-Variations.woff2") format("woff2"),
+           url("/fonts/AmstelvarAlpha-Variations.woff") format("woff");
+   }
+
+   @font-face {
+    font-family: "Brandon";
+    src: url("/fonts/Brandon_light.woff2") format("woff2"),
+           url("/fonts/Brandon_light.woff") format("woff"),
+           url("/fonts/Brandon_reg.woff") format("woff"),
+           url("/fonts/Brandon_reg.woff2") format("woff2");
+   }
+
+
 html, body {
 
     margin: 0;
@@ -11,14 +34,8 @@ html, body {
 
 /* Logo-final*/
 
-
-position: absolute;
 width: 319px;
 height: 163px;
-left: 304px;
-top: 311px;
-
-background: url(Logo-final.png);
 
 }
 
